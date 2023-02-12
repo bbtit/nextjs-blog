@@ -1,7 +1,7 @@
-import React from 'react'
-import styles from 'styles/hero.module.css'
+import React from "react";
+import styles from "styles/hero.module.css";
 
-export default function Hero({ title, subtitle, imageOn = false}) {
+export default function Hero({ title, subtitle, imageOn = false }) {
   return (
     <div className={styles.flexContainer}>
       <div className={styles.text}>
@@ -10,5 +10,5 @@ export default function Hero({ title, subtitle, imageOn = false}) {
       </div>
       {imageOn && <figure>[画像]</figure>}
     </div>
-  )
+  );
 }

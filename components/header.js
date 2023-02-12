@@ -1,7 +1,7 @@
-import Container from './container'
-import Logo from './logo'
-import Nav from './nav'
-import styles from 'styles/header.module.css'
+import Container from "./container";
+import Logo from "./logo";
+import Nav from "./nav";
+import styles from "styles/header.module.css";
 
 export default function Header() {
   return (
@@ -13,5 +13,5 @@ export default function Header() {
         </div>
       </Container>
     </header>
-  )
+  );
 }

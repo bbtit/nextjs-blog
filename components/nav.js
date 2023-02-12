@@ -1,26 +1,20 @@
 import Link from "next/link";
-import styles from 'styles/nav.module.css'
+import styles from "styles/nav.module.css";
 
 export default function Nav() {
-  return(
+  return (
     <nav>
       <ul className={styles.list}>
         <li>
-          <Link href = "/">
-            Home
-          </Link>
+          <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href = "/about">
-            About
-          </Link>
+          <Link href="/about">About</Link>
         </li>
         <li>
-          <Link href = "/blog">
-            Blog
-          </Link>
+          <Link href="/blog">Blog</Link>
         </li>
       </ul>
     </nav>
-  )
+  );
 }

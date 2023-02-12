@@ -9,7 +9,7 @@
 
 .stack h2 + *,
 .stack h3 + * {
-  --stack-space: 0.8em
+  --stack-space: 0.8em;
 }
 
 .stack p {
