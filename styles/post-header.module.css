@@ -16,6 +16,7 @@
 
 .publish {
   display: flex;
+  align-items: center;
   gap: 0.5em;
   color: var(--gray-50);
   font-size: var(--small-heading3);
