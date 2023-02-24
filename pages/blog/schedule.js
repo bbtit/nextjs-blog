@@ -1,4 +1,5 @@
-import { client, getPostBySlug } from "../../lib/api";
+import { getPostBySlug } from "../../lib/api";
+import PostHeader from "components/post-header";
 
 export default function Schedule({
   title,
@@ -8,9 +9,9 @@ export default function Schedule({
   categories,
 }) {
   return (
-    <>
-      <h1>{title}</h1>
-    </>
+    <article>
+      <PostHeader title={title} subtitle="Blog Article" publish={publish} />
+    </article>
   );
 }
 
